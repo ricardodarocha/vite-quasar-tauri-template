@@ -1,33 +1,81 @@
-# Quasar App (lab)
+# Template para rodar o Vue.js com Tauri
 
-A Quasar Project
+Vue.js + Quasar
+Vite + Tauri
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
+Gera executáveis em múltiplas plataformas
+
+# Pré-requisitos
+
+Conheça as tecnologias deste template  
+https://vitejs.dev/   
+https://vuejs.org/  
+https://quasar.dev/   
+https://tauri.app/  
+
+Se você tem interesse em Design acesse o guia Material Design  
+https://m3.material.io/
+
+Conheça a linguagem Rust  
+https://tauri.app/  
+
+## É importante ter o amiente configurado com as seguintes tecnologias
+```shell
+# https://nodejs.org/pt-br/ # node > 14
+npm install --global yarn # yarn
+yarn global add @vue/cli # vue cli
+yarn global add @quasar/cli # quasar cli
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+##Rust##
+Este projeto utiliza Tauri, que é uma biblioteca Rust para empacotar este projeto no formato .executável multiplataformas
+
+Se você não pretende distribuir binários no formato .exe similares ao electron pode ignorar esta parte
+
+Instale o Rust 
+rust-lang.org/pt-BR/tools/install
+
+Em seguida instale o Tauri
+```shell
+cargo install create-tauri-app
+```
+
+# Configurando Tauri
+
+Este projeto foi criado com o comando `cargo create-tauri-app` ou similar `yarn create tauri-app`
+
+# 
+Para criar o seu próprio setup com vite
+```shell
+ yarn create vite
+ # supondo que o projeto chama lab
+ cd lab/
+ yarn create tauri-app
+ 
+```
+# Clonando este repositório
+```shell
+git clone https://github.com/ricardodarocha/vite-quasar-tauri-template.git
+yarn # para instalar as dependências
+```
+
+# Como rodar esta aplicação
 ```bash
+yarn 
 quasar dev
 ```
 
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-
-### Build the app for production
+# Para construir a aplicação Java Script
+### 
 ```bash
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+# Para construir os binários da aplicação tauri
+
+```
+cargo build 
+cargo build --release
+cargo run
+```
+
