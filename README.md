@@ -1,4 +1,4 @@
-# Template para rodar o Vue.js com Tauri
+#### Template para rodar o Vue.js com Tauri
 
 Vue.js + Quasar
 Vite + Tauri
