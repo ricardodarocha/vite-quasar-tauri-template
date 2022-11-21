@@ -5,6 +5,8 @@ Vite + Tauri
 
 Gera executáveis em múltiplas plataformas
 
+![dashboard.PNG]()
+
 # Pré-requisitos
 
 Conheça as tecnologias deste template  
