@@ -5,7 +5,7 @@ Vite + Tauri
 
 Gera executáveis em múltiplas plataformas
 
-![dashboard.PNG]()
+![](dashboard.PNG)
 
 # Pré-requisitos
 
@@ -80,4 +80,6 @@ cargo build
 cargo build --release
 cargo run
 ```
-
+![](mainlayout.PNG)
+![](cadastromenu.PNG)
+![](tabela.PNG)
