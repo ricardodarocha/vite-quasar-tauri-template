@@ -69,7 +69,7 @@ Para criar o seu próprio setup com vite
 ```
 # Clonando este repositório
 ```shell
-git clone https://github.com/ricardodarocha/vite-quasar-tauri-template.git
+git clone https://github.com/[seuusuario]/vite-quasar-tauri-template.git
 yarn # para instalar as dependências
 ```
 
