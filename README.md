@@ -7,7 +7,7 @@ Vue.js + Quasar
 Vite + Tauri
 
 
-![](dashboard.PNG)
+![](dashboard.PNG)  
 Este template possui os seguintes recursos configurados
 - [x] Vue.js 3.0 com todos os seus recursos
 - [x] Quasar UI // suporte a todos os componentes do [quasar](https://quasar.dev/)
