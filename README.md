@@ -30,7 +30,7 @@ yarn global add @vue/cli # vue cli
 yarn global add @quasar/cli # quasar cli
 ```
 
-##Rust##
+##Rust  
 Este projeto utiliza Tauri, que é uma biblioteca Rust para empacotar este projeto no formato .executável multiplataformas
 
 Se você não pretende distribuir binários no formato .exe similares ao electron pode ignorar esta parte
