@@ -19,9 +19,9 @@ Se você tem interesse em Design acesse o guia Material Design
 https://m3.material.io/
 
 Conheça a linguagem Rust  
-https://tauri.app/  
+rust-lang.org/pt-BR/
 
-## É importante ter o amiente configurado com as seguintes tecnologias
+## É importante ter o ambiente configurado com as seguintes tecnologias
 ```shell
 # https://nodejs.org/pt-br/ # node > 14
 npm install --global yarn # yarn
