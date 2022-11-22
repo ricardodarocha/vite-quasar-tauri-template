@@ -1,9 +1,10 @@
 #### Template para rodar o Vue.js com Tauri
 
+Tauri é uma ferramenta similar ao Electron, para gerar aplicativos multiplataformas  
+Roda no compilador do Rust
+
 Vue.js + Quasar
 Vite + Tauri
-
-Gera executáveis em múltiplas plataformas
 
 ![](dashboard.PNG)
 
