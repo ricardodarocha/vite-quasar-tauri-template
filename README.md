@@ -30,7 +30,7 @@ yarn global add @vue/cli # vue cli
 yarn global add @quasar/cli # quasar cli
 ```
 
-##Rust  
+## Rust  
 Este projeto utiliza Tauri, que é uma biblioteca Rust para empacotar este projeto no formato .executável multiplataformas
 
 Se você não pretende distribuir binários no formato .exe similares ao electron pode ignorar esta parte
@@ -62,19 +62,20 @@ git clone https://github.com/ricardodarocha/vite-quasar-tauri-template.git
 yarn # para instalar as dependências
 ```
 
-# Como rodar esta aplicação
+## Como rodar esta aplicação
 ```bash
 yarn 
 quasar dev
 ```
 
-# Para construir a aplicação Java Script
-### 
+## Para construir a aplicação Java Script
+
+
 ```bash
 quasar build
 ```
 
-# Para construir os binários da aplicação tauri
+## Para construir os binários da aplicação tauri
 
 ```
 cargo build 
