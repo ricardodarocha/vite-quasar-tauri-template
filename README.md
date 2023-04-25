@@ -21,7 +21,7 @@ This template have the following resources
 
 # Requirements
 
-Techonologies
+Techonologies  
 https://vitejs.dev/   
 https://vuejs.org/  
 https://quasar.dev/   
@@ -30,7 +30,7 @@ https://tauri.app/
 Check the Material Design Guide
 https://m3.material.io/
 
-Learn Rust
+Learn Rust  
 rust-lang.org/
 rust-lang.org/pt-BR/
 
@@ -46,7 +46,7 @@ yarn global add @quasar/cli # quasar cli
 
 ## Rust  
 
-This project uses Tauri
+This project uses Tauri  
 It helps you to deploy well fashioned apps like Electron Apps
 
 Install Rust 
