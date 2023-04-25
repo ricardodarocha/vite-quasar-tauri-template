@@ -1,39 +1,42 @@
-#### Template para rodar o Vue.js com Tauri
+#### This template help us to compile Vue.js with Tauri and Rust
 
-Tauri é uma ferramenta similar ao Electron, para gerar aplicativos multiplataformas  
-Roda no compilador do Rust
+Tauri is a tool very similar to Electron, to generate cross-platform apps
+It runs like a Rust binary
 
 Vue.js + Quasar
 Vite + Tauri
 
 
 ![](dashboard.PNG)  
-Este template possui os seguintes recursos configurados
-- [x] Vue.js 3.0 com todos os seus recursos
-- [x] Quasar UI // suporte a todos os componentes do [quasar](https://quasar.dev/)
+This template have the following resources
+- [x] Vue.js 3.0 
+- [x] Quasar UI // Support to [quasar](https://quasar.dev/)
 - [x] [Vite](https://vitejs.dev/) 
-- [x] i18n // suporte para traduções
-- [x] axios // permite fazer requisições http
-- [x] routes // permite configurar rotas, múltiplas plastas
-- [x] componentes  
-- [x] pinia // permite configurar um store global
-- [x] Biblioteca de ícones
+- [x] i18n // Internationalization and multi languagem support
+- [x] axios // http request
+- [x] routes // routes with or without parameters
+- [x] Vue components  
+- [x] pinia // a global store library
+- [x] Icons
 
-# Pré-requisitos
+# Requirements
 
-Conheça as tecnologias deste template  
+Techonologies
 https://vitejs.dev/   
 https://vuejs.org/  
 https://quasar.dev/   
 https://tauri.app/  
 
-Se você tem interesse em Design acesse o guia Material Design  
+Check the Material Design Guide
 https://m3.material.io/
 
-Conheça a linguagem Rust  
+Learn Rust
+rust-lang.org/
 rust-lang.org/pt-BR/
 
-## É importante ter o ambiente configurado com as seguintes tecnologias
+## Before install
+
+check if you have the following environment 
 ```shell
 # https://nodejs.org/pt-br/ # node > 14
 npm install --global yarn # yarn
@@ -42,51 +45,50 @@ yarn global add @quasar/cli # quasar cli
 ```
 
 ## Rust  
-Este projeto utiliza Tauri, que é uma biblioteca Rust para empacotar este projeto no formato .executável multiplataformas
 
-Se você não pretende distribuir binários no formato .exe similares ao electron pode ignorar esta parte
+This project uses Tauri
+It helps you to deploy well fashioned apps like Electron Apps
 
-Instale o Rust 
+Install Rust 
 rust-lang.org/pt-BR/tools/install
 
-Em seguida instale o Tauri
+Then install Tauri
 ```shell
 cargo install create-tauri-app
 ```
 
-# Configurando Tauri
+# Configure Tauri
 
-Este projeto foi criado com o comando `cargo create-tauri-app` ou similar `yarn create tauri-app`
+It has been created with command `cargo create-tauri-app` or similar `yarn create tauri-app`
 
 # 
-Para criar o seu próprio setup com vite
+To use Vite
 ```shell
  yarn create vite
- # supondo que o projeto chama lab
+ 
  cd lab/
  yarn create tauri-app
  
 ```
-# Clonando este repositório
+# Clone this repositório
 ```shell
 git clone https://github.com/[seuusuario]/vite-quasar-tauri-template.git
-yarn # para instalar as dependências
+yarn #Install dependencies
 ```
 
-## Como rodar esta aplicação
+## How to run
 ```bash
 yarn 
 quasar dev
 ```
 
-## Para construir a aplicação Java Script
-
+## Build Java Script
 
 ```bash
 quasar build
 ```
 
-## Para construir os binários da aplicação tauri
+## Build the deployable binary
 
 ```
 cargo build 
