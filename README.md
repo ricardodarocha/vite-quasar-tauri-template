@@ -70,7 +70,7 @@ To use Vite
  yarn create tauri-app
  
 ```
-# Clone this repositório
+# Clone this repository
 ```shell
 git clone https://github.com/[seuusuario]/vite-quasar-tauri-template.git
 yarn #Install dependencies
