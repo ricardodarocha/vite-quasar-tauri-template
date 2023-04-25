@@ -1,6 +1,6 @@
 #### This template help us to compile Vue.js with Tauri and Rust
 
-Tauri is a tool very similar to Electron, to generate cross-platform apps
+Tauri is a tool very similar to Electron, to generate cross-platform apps  
 It runs like a Rust binary
 
 Vue.js + Quasar
